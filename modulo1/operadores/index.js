@@ -322,17 +322,35 @@
 
 // @Exercício 4
 
-const numero1 = Number(prompt("Insira um número"))
-const numero2 = Number(prompt("Insira outro número"))
+// const numero1 = Number(prompt("Insira um número"))
+// const numero2 = Number(prompt("Insira outro número"))
 
-const resultado1 = numero1>numero2
-const resultado2 = numero1===numero2
-const resultado3 = (numero1%numero2)===0
-const resultado4 = (numero2%numero1)===0
+// const resultado1 = numero1>numero2
+// const resultado2 = numero1===numero2
+// const resultado3 = (numero1%numero2)===0
+// const resultado4 = (numero2%numero1)===0
 
-console.log("O primeiro número é maior que o segundo?", resultado1);
-console.log("O primeiro número é igual ao segundo?", resultado2);
-console.log("O primeiro número é divisível pelo segundo?", resultado3);
-console.log("O segundo número é divisível pelo primeiro?", resultado4);
+// console.log("O primeiro número é maior que o segundo?", resultado1);
+// console.log("O primeiro número é igual ao segundo?", resultado2);
+// console.log("O primeiro número é divisível pelo segundo?", resultado3);
+// console.log("O segundo número é divisível pelo primeiro?", resultado4);
+
+//#Desafio 1
+
+// (kelvin) = (graus_fahrenheit = 77 - 32)*(5/9) + 273.15;
+// console.log(graus_fahrenheit = 77, 'graus fahrenheit corresponde a', kelvin, "kelvin");
+
+// (graus_fahrenheit) = (graus_celsius = 80)*9/5 + 32;
+// console.log(graus_celsius = 80, "graus Celsius corresponde a", graus_fahrenheit, "graus fahrenheit");
+
+// (graus_fahrenheit) = (graus_celsius = 30)*9/5 + 32;
+// (kelvin) = (graus_fahrenheit = 86 - 32)*(5/9) + 273.15;
+// console.log(graus_celsius = 30, "correspondem a", graus_fahrenheit,"e a", kelvin, "kelvin");
+
+
+// const graus_celsius = Number(prompt("Insira a temperatura em °C"))
+// const graus_fahrenheit = (graus_celsius)*9/5 + 32;
+// const kelvin = (graus_fahrenheit - 32)*(5/9) + 273.15;
+// console.log(graus_celsius, "correspondem a", graus_fahrenheit,"e a", kelvin, "kelvin");
 
 
