@@ -80,5 +80,19 @@
 // console.log(listaDeTarefas)
 
 
+// const catioros = ["catioro1", "catioro2", "catioro3", "catioro 4", "catioro 5"]
+// const usuario = prompt("Insira um número de 1 a 6")
 
+// console.log(catioros[usuario - 1])
+
+// const número = [1, 2, 3, 4, 5, 6];
+// console.log(número.length);
+
+// número.push(7);
+// console.log(número);
+
+// número.splice(3, 2);
+// console.log(número);
+
+// console.log(número.length);
 
