@@ -79,11 +79,13 @@
 // }
 
 //Exercício 4
-const genero = prompt("Qual o genero do filme?").toLowerCase
-const valorIngresso = prompt("Quanto custa o ingresso?")
-preco = Number(valorIngresso)
-if (genero === 'fantasia' && preco <= 15){
-    console.log('Bom Filme')
-} else {
-    console.log("Escolha outro filme :(")
-}
+// let generoDoFilme = confirm('O filme é de fantasia?')
+// let ingresso = confirm('O ingresso custa menos que R$15,00?')
+// const cinema = (generoDoFilme, ingresso) => {
+//     if (generoDoFilme && ingresso) {
+//         return "Bom filme"
+//     } else {
+//         return "Escolha outro filme :("
+//     }
+// }
+// console.log(cinema(generoDoFilme, ingresso))
