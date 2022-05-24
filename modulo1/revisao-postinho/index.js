@@ -39,30 +39,30 @@
 
 // // Exercício 3------------------------------------------------------------------------------------
 
-const cadastro = () => {
-    const usuario = []
-    //  Sua lógica aqui
-const nomeDeUsuario = prompt('Digite seu nome')
-const anoDeNascimento = prompt('Digite seu ano de nascimento')
-const senha = prompt('Crie uma senha')
-const nacionalidade = prompt('Insira sua nacionalidade')
+// const cadastro = () => {
+//     const usuario = []
+//     //  Sua lógica aqui
+// const nomeDeUsuario = prompt('Digite seu nome')
+// const anoDeNascimento = prompt('Digite seu ano de nascimento')
+// const senha = prompt('Crie uma senha')
+// const nacionalidade = prompt('Insira sua nacionalidade')
 
-if (anoDeNascimento <= 2004) {
-    usuario.push(anoDeNascimento)
-} else {
-    console.log('Para se cadastrar, você precisa ser maior de idade')
-} if (nacionalidade === 'brasileira') {
-    usuario.push(nacionalidade)
-} else {
-    console.log('Para se cadastrar, precisa ter nacionalidade brasileira')
-} if (senha.length >= 6){
-    usuario.push(senha)
-} else {
-    console.log('senha precisa ter 6 ou mais caracteres')
-}
-console.log(usuario)
-}
-cadastro()
+// if (anoDeNascimento <= 2004) {
+//     usuario.push(anoDeNascimento)
+// } else {
+//     console.log('Para se cadastrar, você precisa ser maior de idade')
+// } if (nacionalidade === 'brasileira') {
+//     usuario.push(nacionalidade)
+// } else {
+//     console.log('Para se cadastrar, precisa ter nacionalidade brasileira')
+// } if (senha.length >= 6){
+//     usuario.push(senha)
+// } else {
+//     console.log('senha precisa ter 6 ou mais caracteres')
+// }
+// console.log(usuario)
+// }
+// cadastro()
 
 
 // // Exercício 4-----------------------------------------------------------------------------------------------
@@ -70,23 +70,29 @@ cadastro()
 // const login = () => {
 //     const login = "labenu"
 //     //  Sua lógica aqui
-
+// const senha = prompt('digite sua senha')
+// if (senha === login) {
+//     console.log("Usuário Logado")
+// } else {
+//     console.log("Senha inválida")
+// }
 // }
 
-// console.log(login());
+// login()
 
 // // Exercício 5----------------------------------------------------------------------------------------------------
 
-// const primeiraDose = () => {
+const primeiraDose = () => {
 
-//     //  Sua lógica aqui
+    //  Sua lógica aqui
+const nome = prompt("Digite o seu nome")
+const vacina = prompt("digite o fabricante de sua vacina")
+
+}
+console.log(primeiraDose())
 
 
-// }
-// console.log(primeiraDose())
-
-
-// // LOOP+CONDICIONAL
+// LOOP+CONDICIONAL
 
 // // Exercício 6 -------------------------------------------------------------------------------------
 
