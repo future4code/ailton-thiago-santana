@@ -1,0 +1,36 @@
+header {
+    background-color: darkred;
+    text-align: center;
+    color: aliceblue;
+    padding: 3vw;
+    margin: 100 100;
+}
+.fotoCarro{
+    width: 15vw;
+}
+nav{
+    text-align: center;
+}
+#paginaInicial{
+    width: 75%;
+    margin: 5% auto;
+    display: block;
+    border: 0.5vw solid darkred;
+}
+body{
+    background-color: bisque;
+}
+table {
+    margin: 0 auto;
+    background-color: ;
+}
+tr{
+    background-color: gray;
+}
+#cabeçalhoTabela{
+    background-color: aliceblue;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+}
