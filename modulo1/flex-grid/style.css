@@ -7,10 +7,9 @@ main {
     border: 1px solid black;
     flex-grow: 1;
     align-items: stretch;
+    flex-direction: column;
 
 }
-
-div {}
 
 header {
     display: flex;
