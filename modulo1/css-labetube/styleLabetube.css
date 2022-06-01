@@ -1,0 +1,44 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+    gap: 6px;
+}
+
+h1 {
+    color: azure;
+
+}
+
+header {
+    background-color: rgb(73, 73, 73);
+    grid-column: 1/-1;   
+} 
+
+main {
+    background-color: gray;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    
+}
+section {
+    border: 1px solid black;
+}
+
+section video {
+    width: 300px;
+}
+
+
+footer {
+    background-color: black;
+    grid-column: 1/-1;
+    color: darkgray;
+}
